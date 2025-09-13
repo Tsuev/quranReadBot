@@ -25,7 +25,7 @@ const bot = new TelegramBot(BOT_TOKEN);
 
 // Счетчик текущей страницы (сохраняется в файле)
 const COUNTER_FILE = path.join(__dirname, "page-counter.txt");
-let currentPage = 1;
+let currentPage = 7;
 
 // Функция для загрузки текущей страницы из файла
 function loadCurrentPage() {
